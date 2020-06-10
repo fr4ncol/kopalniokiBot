@@ -1,0 +1,43 @@
+
+## [beta 0.11.0] - 2020-06-02
+- Started a beta stage of project.
+- Added error handling to all modules.
+- Started github repo.
+- Added Heroku support.
+
+## [alpha 0.10.0] - 2020-06-02
+- Added translate command.
+- Closing alpha stage of project.
+
+## [alpha 0.9.0] - 2020-06-01
+- Added wiki command.
+- Added support for MediaWiki API.
+
+## [alpha 0.8.0] - 2020-04-03
+- Added girl command.
+- Rebuild for girl command.
+- Added stoopki command for foot fetishists.
+
+## [alpha 0.7.0] - 2020-04-02
+- Added meme command.
+
+## [alpha 0.6.0] - 2020-04-01
+- Added randomCat command.
+
+## [alpha 0.5.0] - 2020-04-01
+- Added quote command.
+
+## [alpha 0.4.0] - 2020-04-01
+- Upgrade whole file system
+
+## [alpha 0.3.0] - 2020-03-31
+- Upgrade to info command.
+- Exploits fixed.
+
+## [alpha 0.2.0] - 2020-03-31
+- Added commands: info and ping.
+- Added prefix to commands: *.
+
+## [alpha 0.1.0] - 2020-03-31
+- Started development.
+- Added prevention of direct messages.
