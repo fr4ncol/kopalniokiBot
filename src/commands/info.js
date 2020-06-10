@@ -15,7 +15,6 @@ module.exports = {
 
             )
             .setColor(0x00695c)
-            .setFooter('W stopce powiem, że autor lubi stoopki');
         msg.channel.send(embed)
     },
 }
