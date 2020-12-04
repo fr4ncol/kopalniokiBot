@@ -22,6 +22,8 @@ module.exports = {
             let data = await (await fetch(readyListSearchUrl)).json()
             let id = data.query.search[0].pageid
 
+            console.log(id)
+
             let articleSearchUrl = 'https://pl.wikipedia.org/w/api.php?action=query&format=json&prop=info&prop=extracts&exintro&explaintext&pageids=';
             let articleIdSearchUrl = articleSearchUrl + id
             let dataById = await (await fetch(articleIdSearchUrl)).json();
