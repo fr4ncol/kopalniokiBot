@@ -23,7 +23,18 @@ module.exports = {
             }
 
 
-            translate(phrase, { from: 'pl', to: language }).then(res => {
+            translate(phrase, { from: 'pl', to: language },{
+    agent: tunnel.httpsOverHttp({
+    proxy: { 
+      host: 'whateverhost',
+      proxyAuth: 'user:pass',
+      port: '8080',
+      headers: {
+        'User-Agent': 'Node'
+      }
+    }
+  }
+)}).then(res => {
                 msg.channel.send(res.text)
                 console.log(res.from.text.autoCorrected);
                 console.log(res.from.text.value);
